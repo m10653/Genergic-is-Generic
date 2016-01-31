@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+<port>8080</port>
+<address>192.168.1.169</address>
+<encoding>ISO-8859-1</encoding>
+<openWebUIOnStartup>false</openWebUIOnStartup>
+<ConsoleGUI>true</ConsoleGUI>
+<MaxLineBuffer>100</MaxLineBuffer>
+<webCaching>true</webCaching>
+<websitePath>C:\Users\m10653\Webworkspace\PackageTracker\WebContent</websitePath>
+<username>Admin</username>
+<password>password</password>
+</list>
+
