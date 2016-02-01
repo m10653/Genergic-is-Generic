@@ -41,9 +41,9 @@ public class HttpTrackingServer{
 
 			server.setExecutor(null); // creates a default executor
 			server.start();
-			Main.window.sendInfo("Server Hosting on " + server.getAddress());
+			Console.sendInfo("Server Hosting on " + server.getAddress());
 		} catch (Exception e) {
-			Main.window.sendError("Error Creating Http Server With Port " + port + " and ip " + adress + " \n Error: " + e);
+			Console.sendError("Error Creating Http Server With Port " + port + " and ip " + adress + " \n Error: " + e);
 			System.exit(0);
 			
 		}
@@ -67,7 +67,7 @@ public class HttpTrackingServer{
 			String qry ="";
 			Headers headers = t.getResponseHeaders();
 			String url = t.getHttpContext().getPath();
-			Main.window.sendInfo(url);
+			Console.sendInfo(url);
 			
 			if(url.equals("/")){ //Catch all Display GUI
 				
