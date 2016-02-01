@@ -1,0 +1,2 @@
+High Volume Networking bug
+Last line of Gui Console buffer is the Wrong color
